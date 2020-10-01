@@ -118,6 +118,20 @@ Add to your `tsconfig.json`:
 ```json
 "extends": "@tsconfig/svelte/tsconfig.json"
 ```
+### Visual Studio Code TypeScript Extension <kbd><a href="./bases/vscode.json">tsconfig.json</a></kbd>
+
+Install:
+
+```sh
+npm install --save-dev @tsconfig/vscode
+yarn add --dev @tsconfig/vscode
+```
+
+Add to your `tsconfig.json`:
+
+```json
+"extends": "@tsconfig/vscode/tsconfig.json"
+```
 
 <!-- /AUTO -->
 
